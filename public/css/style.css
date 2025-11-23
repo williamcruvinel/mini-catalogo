@@ -1,0 +1,136 @@
+:root {
+  --primary-color: #F4C20D;      
+  --secondary-color: #F7D154;    
+  --dark-color: #0a0a0a;
+  --light-color: #ffffff;
+  --gray-color: #fdf7e3;         
+  --text-color: #0a0a0a;
+  --bg-color: #fff9d5;
+  --card-bg: #ffffff;
+  --border-color: #F7D154;      
+  --shadow-color: rgba(244, 194, 13, 0.15);
+  --transition: all 0.3s ease;
+}
+
+[data-theme='dark'] {
+  --dark-color: #ffffff;
+  --light-color: #0a0a0a;
+  --gray-color: #1a1a1a;
+  --text-color: #ffffff;
+  --bg-color: #0a0a0a;
+  --card-bg: #1a1a1a;
+  --border-color: #F7D154;         
+  --shadow-color: rgba(247, 209, 84, 0.15); 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* MENU */
+header {
+  background: #00000080;
+  box-shadow: inset 0 -1px 0 var(--border-color);
+  padding: 10px;
+  z-index: 1000;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 8px 12px;
+}
+
+.nav-list a:hover {
+  color: var(--secondary-color);
+  transition: 0.5s;
+}
+
+/* SOBRE */
+.sobre-content {
+  background: url('https://jornalismorio.espm.br/wp-content/uploads/2021/12/confira-agora-os-25-melhores-animes-que-ja-foram-criados-1.jpg')
+    no-repeat center center/cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.dark-overlay {
+  background: #00000030;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-content {
+  text-align: center;
+  padding: 50px 20px;
+  border-radius: 5px;
+  color: #ffffff;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.6);
+}
+
+.hero-title {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.hero-description {
+  font-size: 1.8rem;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  text-decoration: none;
+  border-radius: 6px;
+  margin-top: 20px;
+  border: none;
+}
+
+.btn a {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+  transition: 0.3s;
+}
