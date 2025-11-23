@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./public/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Catalogo | Favoritos</title>
   </head>
   <body>
@@ -14,6 +18,13 @@
           <li><a href="./catalogo.html">Catálogo</a></li>
           <li><a href="./favoritos.html">Favoritos</a></li>
         </ul>
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          aria-label="Alternar tema"
+        >
+          <i class="fa-solid fa-moon"></i>
+        </button>
       </nav>
     </header>
     <div class="search-container">
@@ -23,13 +34,12 @@
         <select name="select">
           <option value="nomeAZ">Nome (A-Z)</option>
           <option value="lancamento" selected>Lançamento</option>
-          <option value="categoria">Categoria</option>
         </select>
       </div>
     </div>
     <main class="container">
       <h2 class="sub-title">Favotritos</h2>
-        <section class="container-card-grid">
+      <section class="container-card-grid">
         <div class="card">
           <div class="card-image">
             <img
@@ -41,7 +51,7 @@
           <div class="card-content">
             <div class="card-header">
               <h3 class="card-title">One Piece</h3>
-              <span>❤</span>
+              <i class="fa-solid fa-heart"></i>
             </div>
             <p class="card-description">
               Aventura épica de piratas em busca do tesouro lendário, o One
@@ -53,23 +63,24 @@
         <div class="card">
           <div class="card-image">
             <img
-              src="https://m.media-amazon.com/images/I/71SmQ7thCPL._SY466_.jpg"
+              src="https://m.media-amazon.com/images/I/71SNLPGYTNL._SL1000_.jpg"
               alt="Capa do mangá One Piece"
               class="card-img"
             />
           </div>
           <div class="card-content">
             <div class="card-header">
-              <h3 class="card-title">One Piece</h3>
-              <span>❤</span>
+              <h3 class="card-title">Samurai-x</h3>
+              <i class="fa-solid fa-heart"></i>
             </div>
             <p class="card-description">
-              Aventura épica de piratas em busca do tesouro lendário, o One
-              Piece.
+              A história de Kenshin Himura, um ex-retalhador que busca redenção
+              enquanto protege os inocentes com sua espada reversa.
             </p>
           </div>
         </div>
       </section>
     </main>
+    <script src="./public/js/script.js"></script>
   </body>
 </html>
