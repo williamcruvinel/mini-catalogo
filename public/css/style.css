@@ -191,6 +191,7 @@ header {
   font-size: 2.2rem;
 }
 
+.container-card-favorito,
 .container-card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -253,6 +254,11 @@ header {
   font-size: 1rem;
   color: var(--text-color);
   line-height: 1.2;
+}
+
+.card-lancamento {
+  margin-top: 10px;
+  color: #999;
 }
 
 .fa-solid.fa-heart {
