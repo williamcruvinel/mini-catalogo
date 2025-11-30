@@ -1,132 +1,145 @@
 {
   "cards": [
     {
-      "id": 1,
-      "titulo": "Dragon Ball 01",
+      "id": "1",
+      "titulo": "Dragon Ball",
       "descricao": "A jornada de Goku começa em uma aventura cheia de artes marciais, humor e mistérios atrás das Esferas do Dragão.",
-      "url": "https://m.media-amazon.com/images/I/81-1jqVHePL._SL1500_.jpg",
-      "favorito": false,
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/75e4db7e3accff83d7433c5b1c6eb9bc845bfacd44fc68db3001fe9a6ce69b5f.jpg",
       "lancamento": 1984
     },
     {
-      "id": 2,
+      "id": "2",
       "titulo": "Samurai-X",
       "descricao": "A história de Kenshin Himura, um ex-retalhador que busca redenção enquanto protege os inocentes com sua espada reversa.",
-      "url": "https://m.media-amazon.com/images/I/71SNLPGYTNL._SL1000_.jpg",
-      "favorito": false,
+      "url": "https://wallpapers.com/images/featured/fotos-do-samurai-x-6kqsiwwpszul1n4f.jpg",
       "lancamento": 1994
     },
     {
-      "id": 3,
+      "id": "3",
       "titulo": "Naruto",
       "descricao": "A jornada de Naruto Uzumaki para se tornar Hokage enquanto enfrenta vilões, desafios e descobre seu verdadeiro destino.",
-      "url": "https://m.media-amazon.com/images/I/81ayTGBf0pL._SY466_.jpg",
-      "favorito": true,
+      "url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/Naruto-e1708720675210.jpg?w=1200&h=675&crop=1",
       "lancamento": 1999
     },
     {
-      "id": 4,
-      "titulo": "DBZ – Saga Cell",
-      "descricao": "Os Guerreiros Z enfrentam Cell, um dos inimigos mais perigosos já criados, em batalhas intensas e cheias de poder.",
-      "url": "https://m.media-amazon.com/images/I/51CzZrEiP1L._SY445_SX342_ControlCacheEqualizer_.jpg",
-      "favorito": false,
-      "lancamento": 1992
-    },
-    {
-      "id": 5,
-      "titulo": "DBZ – Saga Freeza",
-      "descricao": "Goku e seus amigos enfrentam o tirano intergaláctico Freeza no planeta Namek, em uma das sagas mais icônicas da série.",
-      "url": "https://m.media-amazon.com/images/I/611w9icVfyL._SY445_SX342_ControlCacheEqualizer_.jpg",
-      "favorito": false,
-      "lancamento": 1990
-    },
-    {
-      "id": 6,
-      "titulo": "Boruto",
-      "descricao": "A nova geração de ninjas enfrenta ameaças modernas enquanto Boruto tenta construir seu próprio caminho além do legado de Naruto.",
-      "url": "https://m.media-amazon.com/images/I/91Q+iP7EnPL._SY466_.jpg",
-      "favorito": true,
-      "lancamento": 2016
-    },
-    {
-      "id": 7,
-      "titulo": "Jujutsu Kaisen",
-      "descricao": "Yuji Itadori entra em um mundo sombrio de feitiçaria e maldições após ingerir o dedo de Sukuna, o Rei das Maldições.",
-      "url": "https://m.media-amazon.com/images/I/81TmHlRleJL._SY466_.jpg",
-      "favorito": false,
-      "lancamento": 2018
-    },
-    {
-      "id": 8,
-      "titulo": "Cavaleiros do Zodíaco",
-      "descricao": "Seiya e os Cavaleiros de Atena lutam para proteger a deusa e enfrentar ameaças divinas usando o poder de seus cosmos.",
-      "url": "https://m.media-amazon.com/images/I/71q0BJXNhOL._SY425_.jpg",
-      "favorito": false,
-      "lancamento": 1986
-    },
-    {
-      "id": 9,
-      "titulo": "Yu Yu Hakusho",
-      "descricao": "Após se tornar um detetive espiritual, Yusuke Urameshi enfrenta demônios, torneios lendários e desafios sobrenaturais.",
-      "url": "https://m.media-amazon.com/images/I/61ROhMZG6ML._SY466_.jpg",
-      "favorito": false,
-      "lancamento": 1990
-    },
-    {
-      "id": 10,
+      "id": "4",
       "titulo": "Attack on Titan",
       "descricao": "A humanidade luta pela sobrevivência contra Titãs gigantes enquanto segredos sombrios sobre o mundo começam a surgir.",
-      "url": "https://m.media-amazon.com/images/I/61+5IWK-7fL._SY342_.jpg",
-      "favorito": true,
+      "url": "https://culturedvultures.com/wp-content/uploads/2018/07/Attack-On-Titan.jpg",
       "lancamento": 2009
     },
     {
-      "id": 11,
-      "titulo": "Death Note",
-      "descricao": "Light Yagami encontra um caderno mortal que permite eliminar qualquer pessoa apenas escrevendo seu nome, iniciando um jogo psicológico intenso.",
-      "url": "https://m.media-amazon.com/images/I/612x+rQ0yJL._SY425_.jpg",
-      "favorito": false,
-      "lancamento": 2003
+      "id": "5",
+      "titulo": "inuyasha",
+      "descricao": "Kagome viaja ao passado e une forças com Inuyasha para recuperar os fragmentos da Joía de Quatro Almas.",
+      "url": "https://mh1.com.br/wp-content/uploads/2024/03/773da124d3fa5db224a90695344a26878a9f0988bbfdc5b3378152e25acfd0c8.jpg",
+      "lancamento": 2000
     },
+
     {
-      "id": 12,
-      "titulo": "Demon Slayer",
-      "descricao": "Tanjiro Kamado se junta aos Caçadores de Demônios para proteger sua irmã Nezuko e enfrentar ameaças sobrenaturais poderosas.",
-      "url": "https://m.media-amazon.com/images/I/61cj15zKw3L._SX342_SY445_ControlCacheEqualizer_.jpg",
-      "favorito": false,
+      "id": "6",
+      "titulo": "Boruto",
+      "descricao": "A nova geração de ninjas enfrenta ameaças modernas enquanto Boruto tenta construir seu próprio caminho além do legado de Naruto.",
+      "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Aw3Xqo7Xjhs0uRvvKkiTXO5_25g2esHsSw&s",
       "lancamento": 2016
     },
     {
-      "id": 13,
+      "id": "7",
+      "titulo": "Jujutsu Kaisen",
+      "descricao": "Yuji Itadori entra em um mundo sombrio de feitiçaria e maldições após ingerir o dedo de Sukuna, o Rei das Maldições.",
+      "url": "https://pop.proddigital.com.br/wp-content/uploads/sites/8/2023/11/01-66.jpg",
+      "lancamento": 2018
+    },
+    {
+      "id": "8",
+      "titulo": "Cavaleiros do Zodíaco",
+      "descricao": "Seiya e os Cavaleiros de Atena lutam para proteger a deusa e enfrentar ameaças divinas usando o poder de seus cosmos.",
+      "url": "https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/cavaleiros-do-zodiaco-hyoga-shun-seiya-shiryu-ikki_fixed_large.jpg",
+      "lancamento": 1986
+    },
+    {
+      "id": "9",
+      "titulo": "Yu Yu Hakusho",
+      "descricao": "Após se tornar um detetive espiritual, Yusuke Urameshi enfrenta demônios, torneios lendários e desafios sobrenaturais.",
+      "url": "https://t2.tudocdn.net/691374?w=824&h=494",
+      "lancamento": 1990
+    },
+    {
+      "id": "10",
+      "titulo": "Dragon Ball Z",
+      "descricao": "Goku e seus amigos enfrentam o tirano intergaláctico Freeza no planeta Namek, em uma das sagas mais icônicas da série.",
+      "url": "https://m.media-amazon.com/images/S/pv-target-images/c9295bf92a8c87f865116be60daa6a31509823c8c11da3fcbc5a6dc589ff9da2.jpg",
+      "lancamento": 1989
+    },
+    {
+      "id": "11",
+      "titulo": "Death Note",
+      "descricao": "Light Yagami encontra um caderno mortal que permite eliminar qualquer pessoa apenas escrevendo seu nome, iniciando um jogo psicológico intenso.",
+      "url": "https://i0.wp.com/universojapanesemusic.com/wp-content/uploads/2024/03/death-note.webp?fit=1200%2C675&ssl=1",
+      "lancamento": 2003
+    },
+    {
+      "id": "12",
+      "titulo": "Demon Slayer",
+      "descricao": "Tanjiro Kamado se junta aos Caçadores de Demônios para proteger sua irmã Nezuko e enfrentar ameaças sobrenaturais poderosas.",
+      "url": "https://www.procurei-em-sonhos.com/wp-content/uploads/2020/06/EFkcMbxWwAE5GbQ.jpg",
+      "lancamento": 2016
+    },
+    {
+      "id": "13",
       "titulo": "One Piece",
       "descricao": "A jornada épica de Luffy e sua tripulação em busca do lendário tesouro One Piece.",
-      "url": "https://m.media-amazon.com/images/I/71SmQ7thCPL._SY466_.jpg",
-      "favorito": false,
+      "url": "https://portaln10.com.br/wp-content/uploads/2025/03/one-piece.jpeg",
       "lancamento": 1997
     },
     {
-      "id": 14,
+      "id": "14",
       "titulo": "Bleach",
       "descricao": "Ichigo Kurosaki ganha poderes de shinigami e enfrenta espíritos malignos enquanto protege o mundo humano.",
-      "url": "https://m.media-amazon.com/images/I/81vbN16NtXL._SL1500_.jpg",
-      "favorito": false,
+      "url": "https://i.ytimg.com/vi/gqOg84UYQoA/maxresdefault.jpg",
       "lancamento": 2001
     },
     {
-      "id": 15,
+      "id": "15",
       "titulo": "Fullmetal Alchemist",
       "descricao": "Os irmãos Elric buscam restaurar seus corpos usando alquimia, enfrentando segredos obscuros sobre o mundo e sobre si mesmos.",
-      "url": "https://m.media-amazon.com/images/I/617-gUUpJ4L._SY425_.jpg",
-      "favorito": false,
+      "url": "https://idris.com.br/dev/wp-content/uploads/2018/03/fullmetal-alchemist-brotherhood-thumb.jpg",
       "lancamento": 2001
     },
     {
-      "id": 16,
+      "id": "16",
       "titulo": "One Punch Man",
       "descricao": "Saitama, um herói tão poderoso que derrota qualquer inimigo com apenas um soco, busca um adversário à altura enquanto enfrenta ameaças absurdas.",
-      "url": "https://m.media-amazon.com/images/I/81AVPbPbdtL._SY466_.jpg",
-      "favorito": true,
+      "url": "https://haiismworld.com.br/wp-content/uploads/2025/06/saitama.jpg",
       "lancamento": 2012
+    },
+    {
+      "id": "17",
+      "titulo": "Dragon Ball Super",
+      "descricao": "Os Guerreiros Z enfrentam o deus da destruição Bills em uma batalha cósmica que ameaça o universo, dando início a uma série de confrontos contra inimigos divinos e ameaças intergalácticas.",
+      "url": "https://criticalhits.com.br/wp-content/uploads/2025/05/Tournament-of-Power-Competitors-1.jpg",
+      "lancamento": 2015
+    },
+    {
+      "id": "18",
+      "titulo": "Yu Gi Oh",
+      "descricao": "Yugi Muto resolve o enigma do Milênio e desbloqueia o espírito de um Faraó antigo, desafiando vilões em duelos de cartas onde os monstros ganham vida e o destino do mundo está em jogo.",
+      "url": "https://nerdizmo.ig.com.br/wp-content/uploads/2024/01/yu-gi-oh-eye-of-illusion-exclusiva-anime-img1.jpeg",
+      "lancamento": 1999
+    },
+    {
+      "id": "19",
+      "titulo": "Pokémon",
+      "descricao": "Ash Ketchum e seu fiel Pikachu embarcam em uma jornada para se tornar um Mestre Pokémon, enfrentando desafios, amigos e rivais enquanto exploram o mundo cheio de criaturas fantásticas.",
+      "url": "https://blog.pensanddolls.com.br/wp-content/uploads/2024/10/capturando-pokemons-raros-os-melhores-colecionaveis-do-universo-pokemon.jpeg",
+      "lancamento": 1996
+    },
+    {
+      "id": "5",
+      "titulo": "Dragon Ball GT",
+      "descricao": "Goku, transformado em criança por um desejo distorcido, viaja pelo universo com seus amigos em busca das Esferas do Dragão Negras, enfrentando ameaças como os temíveis Shadow Dragons.",
+      "url": "https://criticalhits.com.br/wp-content/uploads/2018/12/Dragon-Ball-GT.jpg",
+      "lancamento": 1996
     }
   ]
 }

@@ -1,98 +1,99 @@
 document.addEventListener('DOMContentLoaded', function () {
   async function getCards() {
     try {
-    
-      let res;
-      try {
-        res = await fetch('http://localhost:3000/cards');
-      } catch (errLocal) {
-        console.warn('fetch localhost falhou, tentando /cards', errLocal);
-        res = await fetch('/cards');
-      }
-
-      if (!res.ok) {
-        console.error('Resposta de /cards não OK:', res.status, res.statusText);
-        return;
-      }
-
+      const res = await fetch('http://localhost:3000/cards');
       const cards = await res.json();
-      console.log('cards carregados:', cards);
 
-      const containerCardEl = document.querySelector('.container-card-grid');
-      const containerCardFavoriteEl = document.querySelector('.container-card-favorito');
+      let favoritos = JSON.parse(localStorage.getItem('favoritos')) || [];
 
-      if (!containerCardEl && !containerCardFavoriteEl) {
-        console.warn('Nenhum container de cards encontrado no DOM.');
-        return;
+      const containerCatalogo = document.querySelector('.container-card-grid');
+      const containerFavoritos = document.querySelector(
+        '.container-card-favorito',
+      );
+
+      if (containerCatalogo) containerCatalogo.innerHTML = '';
+      if (containerFavoritos) containerFavoritos.innerHTML = '';
+
+      function isFavorito(id) {
+        return favoritos.includes(id);
       }
 
-      if (containerCardEl) containerCardEl.innerHTML = '';
-      if (containerCardFavoriteEl) containerCardFavoriteEl.innerHTML = '';
+      function toggleFavorito(id) {
+        if (isFavorito(id)) {
+          favoritos = favoritos.filter((f) => f !== id);
+        } else {
+          favoritos.push(id);
+        }
 
-      cards.forEach((card, index) => {
+        localStorage.setItem('favoritos', JSON.stringify(favoritos));
+        render();
+      }
+
+      function criarCard(card) {
         const cardEl = document.createElement('li');
         cardEl.className = 'card';
+        cardEl.setAttribute('data-id', card.id);
 
-        const cardImgEl = document.createElement('div');
-        cardImgEl.className = 'card-image';
+        cardEl.innerHTML = `
+        <div class="card-image">
+          <img src="${card.url}" class="card-img" alt="${card.titulo}">
+        </div>
 
-        const img = document.createElement('img');
-        img.src = card.url;
-        img.alt = `Capa manga ${card.titulo}`;
-        img.className = 'card-img';
-        cardImgEl.appendChild(img);
+        <div class="card-content">
+          <div class="card-header">
+            <h3 class="card-title">${card.titulo}</h3>
+            <button class="btn-icon">
+                <i class="${
+                  isFavorito(card.id)
+                    ? 'fa-solid fa-heart'
+                    : 'fa-regular fa-heart'
+                }"></i>
+            </button>
+          </div>
 
-        const cardContentEl = document.createElement('li');
-        cardContentEl.className = 'card-content';
+          <p class="card-description">${card.descricao}</p>
+          <p class="card-lancamento">Lançamento: ${card.lancamento}</p>
+          <div class="container-btn-resumo">
+            <button class="btn-resumo">Ver Resumo</button>
+          </div>
+          
+        </div>
+      `;
 
-        const cardHeaderEl = document.createElement('div');
-        cardHeaderEl.className = 'card-header';
+        const btn = cardEl.querySelector('.btn-icon');
+        btn.addEventListener('click', (e) => {
+          e.preventDefault();
+          toggleFavorito(card.id);
+        });
 
-        const title = document.createElement('h3');
-        title.textContent = card.titulo;
+        return cardEl;
+      }
 
-        const icon = document.createElement('i');
-        icon.className = card.favorito ? 'fa-solid fa-heart' : 'fa-regular fa-heart';
-
-        cardHeaderEl.appendChild(title);
-        cardHeaderEl.appendChild(icon);
-
-        const description = document.createElement('p');
-        description.className = 'card-description';
-        description.textContent = card.descricao;
-
-        const lancamento = document.createElement('p');
-        lancamento.className = 'card-lancamento';
-        lancamento.textContent = `Lançamento: ${card.lancamento}`;
-
-        cardContentEl.appendChild(cardHeaderEl);
-        cardContentEl.appendChild(description);
-        cardContentEl.appendChild(lancamento);
-
-        cardEl.appendChild(cardImgEl);
-        cardEl.appendChild(cardContentEl);
-
-        if (containerCardEl) {
-          containerCardEl.appendChild(cardEl);
+      function render() {
+        if (containerCatalogo) {
+          containerCatalogo.innerHTML = '';
+          cards.forEach((card) => {
+            containerCatalogo.appendChild(criarCard(card));
+          });
         }
 
-        if (card.favorito) {
-          if (!containerCardFavoriteEl) {
-            console.warn('Card marcado como favorito mas container de favoritos não existe. card index:', index, card);
-          } else {
-            const cloneCard = cardEl.cloneNode(true);
-            containerCardFavoriteEl.appendChild(cloneCard);
-          }
+        if (containerFavoritos) {
+          containerFavoritos.innerHTML = '';
+          cards
+            .filter((card) => isFavorito(card.id))
+            .forEach((card) => {
+              containerFavoritos.appendChild(criarCard(card));
+            });
         }
-      });
-    } catch (err) {
-      console.error('Erro ao carregar cards:', err);
+      }
+      render();
+    } catch (error) {
+      console.error('Erro ao carregar cards:', error);
     }
   }
-
   getCards();
 
-  // TEMA (mantive como antes, sem mudanças)
+  // TEMA
   const themeToggle = document.getElementById('themeToggle');
   const body = document.body;
 
@@ -100,7 +101,9 @@ document.addEventListener('DOMContentLoaded', function () {
     const themeIcon = themeToggle.querySelector('i');
 
     const savedTheme = localStorage.getItem('theme');
-    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    const systemPrefersDark = window.matchMedia(
+      '(prefers-color-scheme: dark)',
+    ).matches;
 
     if (savedTheme) {
       body.setAttribute('data-theme', savedTheme);
@@ -121,7 +124,8 @@ document.addEventListener('DOMContentLoaded', function () {
     function updateThemeIcon() {
       const currentTheme = body.getAttribute('data-theme');
       if (!themeIcon) return;
-      themeIcon.className = currentTheme === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
+      themeIcon.className =
+        currentTheme === 'dark' ? 'fa-solid fa-sun' : 'fa-solid fa-moon';
     }
   }
 });
