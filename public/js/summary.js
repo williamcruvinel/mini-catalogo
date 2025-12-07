@@ -1,6 +1,16 @@
 import { buscarCards } from './api.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
+  const savedTheme = localStorage.getItem('theme');
+  const systemPrefersDark = window.matchMedia(
+    '(prefers-color-scheme: dark)',
+  ).matches;
+  if (savedTheme) {
+    document.body.setAttribute('data-theme', savedTheme);
+  } else if (systemPrefersDark) {
+    document.body.setAttribute('data-theme', 'dark');
+  }
+
   const summaryContentEl = document.querySelector('.content-summary');
 
   const cards = await buscarCards();
@@ -17,7 +27,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   const card = cards.find((c) => Number(c.id) === id);
 
   if (!card) {
-    return
+    return;
   } else {
     renderSummary(summaryContentEl, card);
   }
