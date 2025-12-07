@@ -45,6 +45,11 @@ h3 {
   font-family: 'Permanent Marker', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .container {
   width: 100%;
   max-width: 1200px;
@@ -197,6 +202,7 @@ header {
 }
 
 /* CATALAGO */
+.summary-title,
 .sub-title {
   text-align: center;
   margin: 10px 0;
@@ -299,7 +305,68 @@ header {
   font-weight: bold;
   cursor: pointer;
   width: 120px;
+  text-align: center;
 }
 .btn-resumo:hover {
+  background: var(--secondary-color);
+}
+
+/* SUMMARY */
+.container-summary {
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.content-summary {
+  background: #00000030;
+  width: 800px;
+  height: auto;
+  padding: 20px 30px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.img-summary-container {
+  margin: 10px auto;
+}
+
+.img-summary {
+  width: 500px;
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  box-shadow: 0 10px 10px var(--shadow-color);
+  border-radius: 5px;
+}
+
+.text-summary {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.btn-voltar {
+  border: none;
+  background: var(--primary-color);
+  padding: 10px 20px;
+  margin: 10px auto;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  width: 300px;
+  text-align: center;
+}
+
+.info-summary {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-voltar:hover {
   background: var(--secondary-color);
 }

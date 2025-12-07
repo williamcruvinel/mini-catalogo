@@ -21,6 +21,9 @@ export function criarCard(card) {
       </div>
       <p class="card-description">${card.descricao}</p>
       <p class="card-lancamento">Lançamento: ${card.lancamento}</p>
+      <div class="container-btn-resumo">
+          <button href="./summary.html"  class="btn-resumo" data-id="${card.id}">VER RESUMO</button>
+      </div>
     </div>
   `;
 

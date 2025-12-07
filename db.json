@@ -2,144 +2,172 @@
   "cards": [
     {
       "id": "1",
-      "titulo": "Dragon Ball",
+      "titulo": "Dragon Ball Clássico",
       "descricao": "A jornada de Goku começa em uma aventura cheia de artes marciais, humor e mistérios atrás das Esferas do Dragão.",
       "url": "https://m.media-amazon.com/images/S/pv-target-images/75e4db7e3accff83d7433c5b1c6eb9bc845bfacd44fc68db3001fe9a6ce69b5f.jpg",
-      "lancamento": 1984
+      "lancamento": 1984,
+      "summary": "Dragon Ball Clássico acompanha o início da jornada de Goku, um garoto ingênuo com força sobre-humana e uma cauda de macaco que vive isolado até conhecer Bulma. A partir desse encontro, os dois embarcam na busca pelas lendárias Esferas do Dragão, capazes de realizar qualquer desejo. Ao longo da aventura, Goku participa de torneios de artes marciais, enfrenta vilões icônicos e forma amizades duradouras. A narrativa mistura humor, ação e descobertas sobre o passado do protagonista."
     },
     {
       "id": "2",
       "titulo": "Samurai-X",
       "descricao": "A história de Kenshin Himura, um ex-retalhador que busca redenção enquanto protege os inocentes com sua espada reversa.",
       "url": "https://wallpapers.com/images/featured/fotos-do-samurai-x-6kqsiwwpszul1n4f.jpg",
-      "lancamento": 1994
+      "lancamento": 1994,
+      "summary": "Samurai-X acompanha Kenshin Himura, um espadachim lendário que, após um passado sangrento como o temido Battousai, jurou nunca mais tirar uma vida e passou a vagar pelo Japão feudal com uma espada de lâmina invertida. Buscando redenção, ele ajuda pessoas em perigo e protege os inocentes, enquanto tenta se afastar das sombras de seus atos anteriores. Ao se envolver com Kaoru, uma jovem que administra um pequeno dojo, Kenshin forma laços que desafiam sua culpa e o forçam a enfrentar inimigos antigos e novos, muitos ligados diretamente ao seu passado. A série equilibra sequências de ação coreografadas, drama pessoal e reflexões sobre honra, perdão e o custo da violência, mostrando como a busca por paz pode ser tão difícil quanto a busca por poder."
     },
     {
       "id": "3",
       "titulo": "Naruto",
       "descricao": "A jornada de Naruto Uzumaki para se tornar Hokage enquanto enfrenta vilões, desafios e descobre seu verdadeiro destino.",
       "url": "https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/Naruto-e1708720675210.jpg?w=1200&h=675&crop=1",
-      "lancamento": 1999
+      "lancamento": 1999,
+      "summary": "Naruto conta a história de Naruto Uzumaki, um jovem ninja rejeitado por sua vila por carregar dentro de si a Raposa de Nove Caudas. Mesmo enfrentando solidão e preconceito, Naruto sonha em se tornar Hokage, o líder máximo da Vila da Folha. A trama acompanha seu crescimento como ninja, suas primeiras missões, rivalidades (especialmente com Sasuke) e o fortalecimento de laços com seus companheiros. É uma jornada sobre perseverança, superação emocional e a busca por reconhecimento."
     },
     {
       "id": "4",
       "titulo": "Attack on Titan",
       "descricao": "A humanidade luta pela sobrevivência contra Titãs gigantes enquanto segredos sombrios sobre o mundo começam a surgir.",
       "url": "https://culturedvultures.com/wp-content/uploads/2018/07/Attack-On-Titan.jpg",
-      "lancamento": 2009
+      "lancamento": 2009,
+      "summary": "Attack on Titan descreve um mundo onde a humanidade se protege dentro de muralhas contra os Titãs, gigantes que devoram pessoas sem explicação. Acompanhando Eren Yeager, Mikasa e Armin, a história começa com uma tragédia pessoal que impulsiona Eren a lutar pela liberdade e a ingressar na Tropa de Exploração. À medida que exploram além das muralhas, segredos políticos, origens dos titãs e verdades desconfortáveis sobre a própria sociedade vêm à tona. O anime se destaca pelo tom sombrio, reviravoltas chocantes e reflexão sobre guerra, identidade e os limites da moralidade em tempos extremos."
     },
     {
       "id": "5",
       "titulo": "inuyasha",
       "descricao": "Kagome viaja ao passado e une forças com Inuyasha para recuperar os fragmentos da Joía de Quatro Almas.",
       "url": "https://mh1.com.br/wp-content/uploads/2024/03/773da124d3fa5db224a90695344a26878a9f0988bbfdc5b3378152e25acfd0c8.jpg",
-      "lancamento": 2000
+      "lancamento": 2000,
+      "summary": "Inuyasha começa quando Kagome, uma estudante do presente, é transportada ao Japão feudal e encontra Inuyasha, um meio-demônio preso por séculos. Juntos, eles embarcam na missão de recuperar os fragmentos da Joia de Quatro Almas, enfrentando yokais e o manipulador Naraku. Ao longo da jornada surgem aliados como Sango, Miroku e Shippo, e se desenvolve um romance tenso e cheio de crescimento entre Kagome e Inuyasha. A série mistura aventura, elementos do folclore japonês, humor e momentos emotivos sobre destino, redenção e pertencimento."
     },
 
     {
       "id": "6",
-      "titulo": "Boruto",
+      "titulo": "Boruto: Naruto Next Generations",
       "descricao": "A nova geração de ninjas enfrenta ameaças modernas enquanto Boruto tenta construir seu próprio caminho além do legado de Naruto.",
       "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_Aw3Xqo7Xjhs0uRvvKkiTXO5_25g2esHsSw&s",
-      "lancamento": 2016
+      "lancamento": 2016,
+      "summary": "Boruto acompanha a nova geração de ninjas em uma era em que tecnologia e tradição convivem, centrando-se em Boruto Uzumaki — filho de Naruto — que busca construir sua própria identidade longe da sombra paterna. A série explora conflitos modernos, ameaças tecnológicas e dilemas geracionais, enquanto Boruto e seus colegas (como Sarada e Mitsuki) enfrentam organizações perigosas e desafios inéditos. Apesar do legado do passado, a narrativa foca em evolução, amizade e na tensão entre responsabilidade e liberdade pessoal. Boruto questiona o que significa herdar um mundo em paz e como renovar ideais sem repetir erros antigos."
     },
     {
       "id": "7",
       "titulo": "Jujutsu Kaisen",
       "descricao": "Yuji Itadori entra em um mundo sombrio de feitiçaria e maldições após ingerir o dedo de Sukuna, o Rei das Maldições.",
       "url": "https://pop.proddigital.com.br/wp-content/uploads/sites/8/2023/11/01-66.jpg",
-      "lancamento": 2018
+      "lancamento": 2018,
+      "summary": "A história segue Yuji Itadori, um estudante comum que acaba ingerindo o dedo de Sukuna, uma poderosíssima Maldição. Para evitar a destruição do mundo, ele precisa se tornar hospedeiro do demônio e ingressar na Escola de Feiticeiros Jujutsu. Lá, ele treina para controlar poderes perigosos e enfrenta maldições cada vez mais fortes. O anime combina ação frenética, humor, amizade e o conflito entre destino e livre-arbítrio."
     },
     {
       "id": "8",
       "titulo": "Cavaleiros do Zodíaco",
       "descricao": "Seiya e os Cavaleiros de Atena lutam para proteger a deusa e enfrentar ameaças divinas usando o poder de seus cosmos.",
       "url": "https://noticiasdatv.uol.com.br/media/_versions/artigos_2021/cavaleiros-do-zodiaco-hyoga-shun-seiya-shiryu-ikki_fixed_large.jpg",
-      "lancamento": 1986
+      "lancamento": 1986,
+      "summary": "Cavaleiros do Zodíaco segue jovens guerreiros que protegem a reencarnação de Atena usando armaduras místicas ligadas a constelações e canalizando o cosmo — uma energia espiritual que potencia seus ataques. Seiya e seus companheiros enfrentam sagas que vão de torneios a guerras entre deuses, sempre destacando sacrifício, honra e amizade. A narrativa é repleta de batalhas épicas, mitologia e momentos de superação onde os cavaleiros ultrapassam seus limites para proteger a paz. É um clássico que mistura elementos místicos e dramáticos com confrontos emotivos e cenas icônicas."
     },
     {
       "id": "9",
       "titulo": "Yu Yu Hakusho",
       "descricao": "Após se tornar um detetive espiritual, Yusuke Urameshi enfrenta demônios, torneios lendários e desafios sobrenaturais.",
       "url": "https://t2.tudocdn.net/691374?w=824&h=494",
-      "lancamento": 1990
+      "lancamento": 1990,
+      "summary": "Yu Yu Hakusho acompanha Yusuke Urameshi, um delinquente que ganha uma segunda chance na vida ao se tornar Detetive Espiritual após um ato de coragem. Em sua nova função, Yusuke investiga ameaças sobrenaturais, enfrenta demônios e participa de torneios que põem à prova sua força e caráter. Ao lado de Kuwabara, Hiei e Kurama, ele forma um grupo coeso que cresce em poder e em complexidade emocional. A série é conhecida por combinar humor, lutas estratégicas e arcos com forte carga dramática e desenvolvimento de personagens."
     },
     {
       "id": "10",
       "titulo": "Dragon Ball Z",
       "descricao": "Goku e seus amigos enfrentam o tirano intergaláctico Freeza no planeta Namek, em uma das sagas mais icônicas da série.",
       "url": "https://m.media-amazon.com/images/S/pv-target-images/c9295bf92a8c87f865116be60daa6a31509823c8c11da3fcbc5a6dc589ff9da2.jpg",
-      "lancamento": 1989
+      "lancamento": 1989,
+      "summary": "Dragon Ball Z amplia o universo inaugurado no clássico, focando em sagas repletas de ação, transformações e ameaças interestelares. Goku e os Guerreiros Z enfrentam inimigos como Freeza, Cell e Majin Boo, e são levados a ultrapassar limites com transformações como o Super Saiyajin. A série explora temas de sacrifício, legado e superação através de treinos extremos, combates decisivos e alianças improváveis. DBZ consolidou o formato shonen de batalhas longas e dramáticas, entregando momentos emocionais e cenas de luta que se tornaram referências culturais mundiais."
     },
     {
       "id": "11",
       "titulo": "Death Note",
       "descricao": "Light Yagami encontra um caderno mortal que permite eliminar qualquer pessoa apenas escrevendo seu nome, iniciando um jogo psicológico intenso.",
       "url": "https://i0.wp.com/universojapanesemusic.com/wp-content/uploads/2024/03/death-note.webp?fit=1200%2C675&ssl=1",
-      "lancamento": 2003
+      "lancamento": 2003,
+      "summary": "Death Note acompanha Light Yagami, um estudante brilhante que encontra um caderno sobrenatural capaz de matar qualquer pessoa cujo nome seja escrito nele. Convencido de que deve eliminar criminosos para criar um novo mundo perfeito, Light inicia um jogo psicológico mortal contra L, um detetive excepcional. A série explora ética, justiça, poder absoluto e os limites da moral humana em uma narrativa intensa e cheia de reviravoltas."
     },
     {
       "id": "12",
       "titulo": "Demon Slayer",
       "descricao": "Tanjiro Kamado se junta aos Caçadores de Demônios para proteger sua irmã Nezuko e enfrentar ameaças sobrenaturais poderosas.",
       "url": "https://www.procurei-em-sonhos.com/wp-content/uploads/2020/06/EFkcMbxWwAE5GbQ.jpg",
-      "lancamento": 2016
+      "lancamento": 2016,
+      "summary": "Demon Slayer acompanha Tanjiro Kamado, um jovem bondoso que tem sua família massacrada por um demônio, restando viva apenas sua irmã Nezuko, transformada em um demônio. Determinado a salvá-la, Tanjiro se junta à Corporação de Caçadores de Demônios, enfrentando criaturas poderosas enquanto desenvolve técnicas de respiração e aprimora sua espada. A narrativa combina emoção, estética marcante e batalhas intensas, explorando temas de perda, bondade e perseverança."
     },
     {
       "id": "13",
       "titulo": "One Piece",
       "descricao": "A jornada épica de Luffy e sua tripulação em busca do lendário tesouro One Piece.",
       "url": "https://portaln10.com.br/wp-content/uploads/2025/03/one-piece.jpeg",
-      "lancamento": 1997
+      "lancamento": 1997,
+      "summary": "One Piece segue Monkey D. Luffy, um jovem que ganhou poderes elásticos após comer a Fruta da Borracha e que sonha em se tornar o Rei dos Piratas. Ele parte pelos mares em busca do lendário tesouro One Piece, formando um bando diverso e carismático enquanto explora ilhas únicas, enfrenta inimigos perigosos e desmantela injustiças. A história combina aventura, humor, drama e worldbuilding profundo, tratando temas como liberdade, sonhos e o peso das escolhas em um mundo vasto e imprevisível."
     },
     {
       "id": "14",
       "titulo": "Bleach",
       "descricao": "Ichigo Kurosaki ganha poderes de shinigami e enfrenta espíritos malignos enquanto protege o mundo humano.",
       "url": "https://i.ytimg.com/vi/gqOg84UYQoA/maxresdefault.jpg",
-      "lancamento": 2001
+      "lancamento": 2001,
+      "summary": "Bleach segue Ichigo Kurosaki, um adolescente capaz de ver espíritos que tem sua vida transformada ao receber os poderes de uma Shinigami chamada Rukia. A partir disso, Ichigo assume a responsabilidade de proteger os vivos de criaturas sombrias chamadas Hollows, enquanto se envolve em conflitos entre mundos espirituais, conspirações internas e batalhas intensas contra inimigos cada vez mais poderosos. A história combina ação sobrenatural, desenvolvimento emocional e uma crescente exploração do passado e do destino de cada personagem."
     },
     {
       "id": "15",
       "titulo": "Fullmetal Alchemist",
       "descricao": "Os irmãos Elric buscam restaurar seus corpos usando alquimia, enfrentando segredos obscuros sobre o mundo e sobre si mesmos.",
       "url": "https://idris.com.br/dev/wp-content/uploads/2018/03/fullmetal-alchemist-brotherhood-thumb.jpg",
-      "lancamento": 2001
+      "lancamento": 2001,
+      "summary": "Fullmetal Alchemist: Brotherhood segue os irmãos Edward e Alphonse Elric após uma tentativa proibida de ressuscitar sua mãe usando alquimia, o que resulta na perda do corpo de Al e de parte do corpo de Ed. Em busca da Pedra Filosofal para restaurarem o que perderam, eles se envolvem em uma conspiração nacional que envolve guerra, política e seres artificiais chamados Homúnculos. O anime explora sacrifício, ética e o verdadeiro significado de humanidade."
     },
     {
       "id": "16",
       "titulo": "One Punch Man",
       "descricao": "Saitama, um herói tão poderoso que derrota qualquer inimigo com apenas um soco, busca um adversário à altura enquanto enfrenta ameaças absurdas.",
       "url": "https://haiismworld.com.br/wp-content/uploads/2025/06/saitama.jpg",
-      "lancamento": 2012
+      "lancamento": 2012,
+      "summary": "One Punch-Man acompanha Saitama, um herói tão poderoso que derrota qualquer inimigo com um único soco e isso o deixa entediado. Procurando um propósito, ele entra para a Associação de Heróis e conhece personagens excêntricos, vilões absurdamente fortes e ameaças colossais. Entre sátira e ação, a série explora o vazio existencial do protagonista, o contraste entre esforço e talento natural e a crítica ao sistema de avaliação de heróis em um mundo cada vez mais caótico."
     },
     {
       "id": "17",
       "titulo": "Dragon Ball Super",
       "descricao": "Os Guerreiros Z enfrentam o deus da destruição Bills em uma batalha cósmica que ameaça o universo, dando início a uma série de confrontos contra inimigos divinos e ameaças intergalácticas.",
       "url": "https://criticalhits.com.br/wp-content/uploads/2025/05/Tournament-of-Power-Competitors-1.jpg",
-      "lancamento": 2015
+      "lancamento": 2015,
+      "summary": "Dragon Ball Super retoma as aventuras dos Guerreiros Z após Majin Buu, levando-os a confrontos que envolvem deuses, universos paralelos e torneios de escala cósmica. Goku e companhia enfrentam desafios além dos limites anteriores, conhecendo deuses da destruição, lutadores de outros universos e novos níveis de poder como Super Saiyajin Blue e Ultra Instinct. A série mistura humor característico, lutas coreografadas e expansão do lore, incluindo conceitos sobre multiversos, hierarquias divinas e rivalidades que testam laços e valores. DBS renova a franquia com batalhas grandiosas e momentos de evolução pessoal para vários personagens."
     },
     {
       "id": "18",
       "titulo": "Yu Gi Oh",
       "descricao": "Yugi Muto resolve o enigma do Milênio e desbloqueia o espírito de um Faraó antigo, desafiando vilões em duelos de cartas onde os monstros ganham vida e o destino do mundo está em jogo.",
       "url": "https://nerdizmo.ig.com.br/wp-content/uploads/2024/01/yu-gi-oh-eye-of-illusion-exclusiva-anime-img1.jpeg",
-      "lancamento": 1999
+      "lancamento": 1999,
+      "summary": "Yu-Gi-Oh! segue Yugi Muto, um jovem que resolve o Enigma do Milênio e liberta o espírito de um faraó que o auxilia em conflitos. A trama se estrutura em torno de duelos de cartas — jogos estratégicos em que monstros e magias ganham forma —, misturando mistério, rivalidades e batalhas mentais. Ao longo da série, Yugi e seus amigos enfrentam antagonistas que usam o jogo para fins sombrios, enquanto o protagonista desenvolve coragem e confiança. A obra equilibra suspense, estratégia e o sentimento de que quando os laços são fortes, é possível superar praticamente qualquer desafio."
     },
     {
       "id": "19",
       "titulo": "Pokémon",
       "descricao": "Ash Ketchum e seu fiel Pikachu embarcam em uma jornada para se tornar um Mestre Pokémon, enfrentando desafios, amigos e rivais enquanto exploram o mundo cheio de criaturas fantásticas.",
       "url": "https://blog.pensanddolls.com.br/wp-content/uploads/2024/10/capturando-pokemons-raros-os-melhores-colecionaveis-do-universo-pokemon.jpeg",
-      "lancamento": 1996
+      "lancamento": 1996,
+      "summary": "Pokémon acompanha Ash Ketchum e seu fiel Pikachu enquanto viajam por regiões diversas em busca do sonho de Ash de se tornar um Mestre Pokémon. A série mistura capturas, batalhas em ginásios, torneios e encontros com treinadores rivais e amigos, sempre com uma abordagem leve e voltada para aventura e aprendizado. Cada arco apresenta novas criaturas, mecânicas regionais e lições sobre amizade, estratégia e crescimento pessoal. Além do foco nas batalhas, Pokémon explora a relação entre humanos e Pokémon, a importância do trabalho em equipe e o encantamento de descobrir mundos novos e criaturas únicas."
     },
     {
-      "id": "5",
+      "id": "20",
       "titulo": "Dragon Ball GT",
       "descricao": "Goku, transformado em criança por um desejo distorcido, viaja pelo universo com seus amigos em busca das Esferas do Dragão Negras, enfrentando ameaças como os temíveis Shadow Dragons.",
       "url": "https://criticalhits.com.br/wp-content/uploads/2018/12/Dragon-Ball-GT.jpg",
-      "lancamento": 1996
+      "lancamento": 1996,
+      "summary": "Dragon Ball GT mostra Goku transformado em criança por um desejo que dá errado nas Esferas do Dragão, forçando-o a viajar pelo universo com Pan e Trunks para recolher as Esferas Negras antes que causem catástrofe. A série mistura aventura espacial com batalhas, apresentando vilões inéditos como os Shadow Dragons e conceitos novos, como o Super Saiyajin 4. GT enfatiza exploração, perigos cósmicos e momentos de ação intensos, além de dar enfoque às relações entre gerações de personagens. Apesar de ser menos canônico para alguns fãs, entrega sequências visuais memoráveis e confrontos grandiosos que expandem o tom aventureiro do universo Dragon Ball."
+    },
+    {
+      "id": "21",
+      "titulo": "Naruto Shipuden",
+      "descricao": "Agora mais maduro, Naruto enfrenta ameaças muito maiores, como a organização criminosa Akatsuki, guerras que envolvem todas as nações ninjas e segredos profundos sobre seu próprio destino.",
+      "url": "https://uploads.jovemnerd.com.br/wp-content/uploads/2017/03/v-naruto.jpg",
+      "lancamento": 2007,
+      "summary": "Naruto Shippuden continua a história após o retorno de Naruto à vila, agora mais maduro e poderoso depois de seu intenso treinamento. O mundo ninja enfrenta ameaças cada vez maiores, como a Akatsuki, enquanto Naruto luta para trazer Sasuke de volta e impedir guerras que ameaçam todo o planeta. A série aprofunda temas como destino, dor, amizade e sacrifício, apresentando batalhas marcantes e revelações sobre o passado dos personagens e o ciclo de ódio que domina o mundo shinobi."
     }
   ]
 }
