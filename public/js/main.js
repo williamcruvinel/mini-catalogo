@@ -93,7 +93,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     if (e.target.classList.contains('btn-resumo')) {
       const id = e.target.dataset.id;
       localStorage.setItem('summaryId', id);
-      window.location.href = '/summary.html';
+      window.location.href = '/pages/summary.html';
     }
   });
 });

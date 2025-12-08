@@ -2,21 +2,21 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./public/css/style.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="../public/css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <title>Catalogo | Favoritos</title>
+    <title>Catalogo | Lista</title>
   </head>
   <body data-theme="light">
     <header>
       <nav class="container nav">
         <ul class="nav-list">
-          <li><a href="./">Home</a></li>
-          <li><a href="./catalogo.html">Catálogo</a></li>
-          <li><a href="./favoritos.html">Favoritos</a></li>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="../pages/catalogo.html">Catálogo</a></li>
+          <li><a href="../pages/favoritos.html">Favoritos</a></li>
         </ul>
         <button
           class="theme-toggle"
@@ -32,7 +32,7 @@
         <div>
           <i class="fa-solid fa-magnifying-glass"></i>
           <input
-            class="search-favorite"
+            class="search-catalogo"
             type="search"
             placeholder="Buscar anime..."
           />
@@ -48,9 +48,9 @@
       </div>
     </div>
     <main class="container">
-      <h2 class="sub-title">Favotritos</h2>
-      <ul class="container-card-favorito"></ul>
+      <h2 class="sub-title">Catálogos</h2>
+      <ul class="container-card-grid"></ul>
     </main>
-    <script type="module" src="./public/js/main.js"></script>
+    <script type="module" src="../public/js/main.js"></script>
   </body>
 </html>
